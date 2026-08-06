@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://w5wgames.com/sitemap.xml
+
+Host: https://w5wgames.com
