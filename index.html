@@ -13,7 +13,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="W5WCOM — W5W Game APK Download for Android" />
   <meta property="og:description" content="Get the latest W5W APK download for Android with slots, live games and India-friendly payment methods." />
-  <meta property="og:image" content="https://w5wgames.com/assets/og-w5w.webp" />
+  <meta property="og:image" content="https://w5wgames.com/assets/og-w5w.webp?v=20260807-2" />
   <meta property="og:url" content="https://w5wgames.com/" />
 
 
@@ -28,7 +28,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="W5WCOM — W5W Game APK Download for Android" />
   <meta name="twitter:description" content="Download the latest W5W APK for Android with slots, live games and India-friendly payment methods." />
-  <meta name="twitter:image" content="https://w5wgames.com/assets/og-w5w.webp" />
+  <meta name="twitter:image" content="https://w5wgames.com/assets/og-w5w.webp?v=20260807-2" />
 
   <script type="application/ld+json">
 {
@@ -42,7 +42,7 @@
   "applicationCategory": "GameApplication",
   "operatingSystem": "Android",
   "url": "https://w5wgames.com/",
-  "image": "https://w5wgames.com/assets/og-w5w.webp",
+  "image": "https://w5wgames.com/assets/og-w5w.webp?v=20260807-2",
   "description": "Download the latest W5W APK and W5W Game APK for Android with slots, live games and India-friendly payment methods.",
   "offers": {
     "@type": "Offer",
@@ -669,7 +669,7 @@
       border-bottom:1px solid rgba(218,220,224,.8);
       background:
         linear-gradient(90deg,rgba(1,135,95,.78),rgba(4,73,58,.55)),
-        url("/assets/hero-logo.png") center/cover no-repeat;
+        url("/assets/hero-logo.png?v=20260807-2") center/cover no-repeat;
     }
 
     .header-visual-space::after{
@@ -802,7 +802,7 @@
       border-radius:28px;
       background:
         linear-gradient(90deg,rgba(3,20,17,.93) 0%,rgba(3,35,29,.86) 48%,rgba(1,135,95,.42) 100%),
-        url("/assets/hero-logo.png") center/cover no-repeat;
+        url("/assets/hero-logo.png?v=20260807-2") center/cover no-repeat;
       box-shadow:0 18px 46px rgba(10,55,44,.18);
     }
 
@@ -1019,6 +1019,45 @@
       }
     }
 
+  
+    /* ===== Asset rendering fix ===== */
+    .app-icon-image{
+      display:block !important;
+      width:168px !important;
+      height:168px !important;
+      min-width:168px !important;
+      object-fit:cover !important;
+      object-position:center !important;
+      padding:0 !important;
+      background:none !important;
+      overflow:hidden !important;
+    }
+
+    .hero-feature{
+      background-image:
+        linear-gradient(90deg,rgba(3,20,17,.86) 0%,rgba(3,35,29,.76) 48%,rgba(1,135,95,.28) 100%),
+        url("/assets/hero-logo.png?v=20260807-2") !important;
+      background-size:cover !important;
+      background-position:center !important;
+      background-repeat:no-repeat !important;
+    }
+
+    @media(max-width:620px){
+      .hero-feature .app-icon-image{
+        width:78px !important;
+        height:78px !important;
+        min-width:78px !important;
+      }
+    }
+
+    @media(max-width:380px){
+      .hero-feature .app-icon-image{
+        width:68px !important;
+        height:68px !important;
+        min-width:68px !important;
+      }
+    }
+
   </style>
 </head>
 
@@ -1049,8 +1088,8 @@
     <section class="hero hero-feature">
       <div class="hero-content">
         <div class="app-head">
-          <img class="app-icon"
-               src="/assets/w5wcom-icon.png"
+          <img class="app-icon app-icon-image"
+               src="/assets/w5wcom-icon.png?v=20260807-2"
                alt="W5WCOM app icon"
                width="168"
                height="168"
