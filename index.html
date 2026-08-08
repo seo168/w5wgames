@@ -468,7 +468,22 @@
     .partner-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
     .partner-card{display:flex;align-items:center;gap:12px;border:1px solid var(--line);border-radius:17px;padding:16px;background:#fff;box-shadow:0 3px 10px rgba(32,33,36,.04);transition:.18s ease}
     .partner-card:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(32,33,36,.09)}
-    .partner-logo{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(145deg,#04a978,#006644);color:#fff;font-weight:900;font-size:13px;flex:0 0 auto}
+    .partner-logo{
+      width:48px;
+      height:48px;
+      border-radius:14px;
+      overflow:hidden;
+      background:#fff;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      flex:0 0 auto;
+    }
+    .partner-logo img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
     .partner-card b{display:block;font-size:14px;margin-bottom:3px}
     .partner-card span{display:block;font-size:12px;color:var(--muted)}
     .modal-overlay{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:20px;background:rgba(10,18,24,.48);backdrop-filter:blur(7px)}
@@ -574,7 +589,22 @@
     .partner-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
     .partner-card{display:flex;align-items:center;gap:12px;border:1px solid var(--line);border-radius:17px;padding:16px;background:#fff;box-shadow:0 3px 10px rgba(32,33,36,.04);transition:.18s ease}
     .partner-card:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(32,33,36,.09)}
-    .partner-logo{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(145deg,#04a978,#006644);color:#fff;font-weight:900;font-size:13px;flex:0 0 auto}
+    .partner-logo{
+      width:48px;
+      height:48px;
+      border-radius:14px;
+      overflow:hidden;
+      background:#fff;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      flex:0 0 auto;
+    }
+    .partner-logo img{
+      width:100%;
+      height:100%;
+      object-fit:cover;
+    }
     .partner-card b{display:block;font-size:14px;margin-bottom:3px}
     .partner-card span{display:block;font-size:12px;color:var(--muted)}
 
@@ -1161,25 +1191,25 @@
       </div>
       <div class="partner-grid">
         <article class="partner-card" aria-label="XX6COM partner platform">
-          <div class="partner-logo">XX6</div><div><b>XX6COM</b><span>Partner platform</span><a class="partner-download" href="#" data-platform="xx6com">Download</a></div>
+          <div class="partner-logo"><img src="/assets/xx6-logo.png?v=20260808" alt="XX6"></div><div><b>XX6COM</b><span>Partner platform</span><a class="partner-download" href="#" data-platform="xx6com">Download</a></div>
         </article>
         <article class="partner-card" aria-label="XX7COM partner platform">
-          <div class="partner-logo">XX7</div><div><b>XX7COM</b><span>Partner platform</span><a class="partner-download" href="#" data-platform="xx7com">Download</a></div>
+          <div class="partner-logo"><img src="/assets/xx7-logo.png?v=20260808" alt="XX7"></div><div><b>XX7COM</b><span>Partner platform</span><a class="partner-download" href="#" data-platform="xx7com">Download</a></div>
         </article>
         <article class="partner-card" aria-label="YYGame partner platform">
-          <div class="partner-logo">YYG</div><div><b>YYGame</b><span>Partner platform</span><a class="partner-download" href="#" data-platform="yygame">Download</a></div>
+          <div class="partner-logo"><img src="/assets/yygame-logo.png?v=20260808" alt="YYG"></div><div><b>YYGame</b><span>Partner platform</span><a class="partner-download" href="#" data-platform="yygame">Download</a></div>
         </article>
         <article class="partner-card" aria-label="66Game partner platform">
-          <div class="partner-logo">66</div><div><b>66Game</b><span>Partner platform</span><a class="partner-download" href="#" data-platform="66game">Download</a></div>
+          <div class="partner-logo"><img src="/assets/66game-logo.png?v=20260808" alt="66"></div><div><b>66Game</b><span>Partner platform</span><a class="partner-download" href="#" data-platform="66game">Download</a></div>
         </article>
         <article class="partner-card" aria-label="XX5COM partner platform">
-          <div class="partner-logo">XX5</div><div><b>XX5COM</b><span>Partner platform</span><a class="partner-download" href="#" data-platform="xx5com">Download</a></div>
+          <div class="partner-logo"><img src="/assets/xx5-logo.png?v=20260808" alt="XX5"></div><div><b>XX5COM</b><span>Partner platform</span><a class="partner-download" href="#" data-platform="xx5com">Download</a></div>
         </article>
         <article class="partner-card" aria-label="YY9COM partner platform">
-          <div class="partner-logo">YY9</div><div><b>YY9COM</b><span>Partner platform</span><a class="partner-download" href="#" data-platform="yy9com">Download</a></div>
+          <div class="partner-logo"><img src="/assets/yy9-logo.png?v=20260808" alt="YY9"></div><div><b>YY9COM</b><span>Partner platform</span><a class="partner-download" href="#" data-platform="yy9com">Download</a></div>
         </article>
         <article class="partner-card" aria-label="PE7COM partner platform">
-          <div class="partner-logo">PE7</div><div><b>PE7COM</b><span>Partner platform</span><a class="partner-download" href="#" data-platform="pe7com">Download</a></div>
+          <div class="partner-logo"><img src="/assets/pe7-logo.png?v=20260808" alt="PE7"></div><div><b>PE7COM</b><span>Partner platform</span><a class="partner-download" href="#" data-platform="pe7com">Download</a></div>
         </article>
       </div>
     </section>
